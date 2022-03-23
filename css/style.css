@@ -1,0 +1,17 @@
+/* ========== Google Fonts ============= */
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+body {
+    background: #f7f7f7;
+    font-family: 'Hubballi', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type='text'] {
+    color: #000;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title  -->
+    <title>Monthly Income & Expense Calculations</title>
+    <!-- CSS File Link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Area  -->
+    <header>
+        <div class="grid hero-text">
+            <h1 class="text-4xl font-semibold text-center my-6 text-blue-400">Monthly Income & Expense Calculations</h1>
+        </div>
+    </header>
+
+    <!-- Main Section  -->
+    <main>
+        <div class="grid grid-cols-1 w-2/4 mx-auto">
+            <div class="right-side-calculation text-center bg-slate-900 text-white rounded">
+                <h3 class="text-2xl font-semibold my-2">Income</h3>
+                <p>Income: <input type="text" id="salary-input" class="bg-slate-100 px-2 py-1 rounded"></p>
+                <h3 class=" text-2xl font-semibold my-2">Expense</h3>
+                <p>Food: <input type="text" id="food-input" class="my-2 bg-slate-100 px-2 py-1 rounded ml-5"></p>
+                <p>Rent: <input type="text" id="rent-input" class="my-2 bg-slate-100 px-2 py-1 rounded ml-5"></p>
+                <p>Clothes: <input type="text" id="clothes-input" class="my-2 bg-slate-100 px-2 py-1 rounded"></p>
+                <button id="calculate-btn" class="bg-blue-400 text-white px-16 py-1.5 rounded my-2 ml-12">Calculate</button>
+                <h3 class="text-2xl font-semibold my-2">Total Expense: <span id="total-expense">0</span></h3>
+                <h3 class="text-2xl font-semibold my-2">Balance: <span id="balance-now">0</span></h3>
+                <p>Save: <input type="text" id="save-input" class="bg-slate-100 px-2 py-1 rounded"> % <input type="submit" id="save-btn" value="Save" class="bg-blue-400 text-white p-2 rounded px-6 py-1.5"></p>
+                <h3 class="text-2xl font-semibold my-2">Saving Amount: <span id="saving-amount">0</span> </h3>
+                <h3 class="text-2xl font-semibold my-2">Remaining Balance: <span id="remaining-balance">0</span> </h3>
+            </div>
+        </div>
+        
+    </main>
+
+
+
+
+
+
+
+
+
+
+    <!-- Tailwind CSS CDN Link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- JS File Link  -->
+    <script src="js/script.js"></script>
+</body>
+</html>
